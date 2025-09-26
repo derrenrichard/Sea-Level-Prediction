@@ -7,7 +7,7 @@ Proyek ini menganalisis data historis perubahan permukaan laut global sejak tahu
 
 Plot di bawah ini menampilkan data historis sebagai titik-titik (scatter plot) beserta dua garis prediksi tren hingga tahun 2050. Garis merah menunjukkan tren jangka panjang, sedangkan garis hijau menunjukkan tren kenaikan yang lebih cepat sejak tahun 2000.
 
-![Hasil Plot Kenaikan Permukaan Laut](sea_level_plot.png)
+<img width="1200" height="600" alt="Image" src="https://github.com/user-attachments/assets/037ac73b-ebb4-45ea-82db-d274f4bbe2eb" />
 
 ---
 ## Struktur File
