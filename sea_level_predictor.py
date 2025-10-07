@@ -6,7 +6,7 @@ import io
 def draw_plot():
     # Step 1: Read data
 
-    df = pd.read_csv('epa-sea-level.csv', na_values='null') # Assuming the CSV file is present
+    df = pd.read_csv('epa-sea-level.csv', na_values='null') 
 
     df_cleaned = df.dropna(subset=['CSIRO Adjusted Sea Level'])
 
@@ -33,6 +33,7 @@ def draw_plot():
     ax.set_title('Rise in Sea Level')
     ax.legend()
     
-    # Save plot and return data for testing (do not modify)
+    # Save plot and return data for testing 
     plt.savefig('sea_level_plot.png')
+
     return plt.gca()
